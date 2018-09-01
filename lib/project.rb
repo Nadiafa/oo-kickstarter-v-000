@@ -5,9 +5,7 @@ class Project
     @title = title
     @backers = []
   end  
-  
-  # #add_backer
-  # accepts a Backer as an argument and stores it in a backers array
+
     def add_backer(backer)
     @backers << backer
     backer.back_project(self)
