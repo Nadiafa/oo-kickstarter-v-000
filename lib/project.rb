@@ -1,5 +1,5 @@
 class Project
-  attr_accessor :title
+  attr_accessor :title, :baker
   
   def title(title)
     @title = title 
