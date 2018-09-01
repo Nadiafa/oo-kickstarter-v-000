@@ -14,5 +14,5 @@ class Project
       Backer.back_project(backer) << backer
   # # accepts a Backer as an argument and stores it in a backers array
   # # also adds the project to the backer's backed_projects array
-  # end
+  end
 end
