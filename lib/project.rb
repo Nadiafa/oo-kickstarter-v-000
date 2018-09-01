@@ -1,10 +1,9 @@
 class Project
   attr_accessor :title, :backer
   
-  def title(title)
-    @title = title 
-    
-  end 
+  def initialize(title)
+    @title = title
+  end  
   
   
   # def ::new
