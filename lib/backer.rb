@@ -5,4 +5,8 @@ class Backer
     @name = name 
   end 
   
+  
+  def back_project
+  # also adds the backer to the project's backers array
+  end
 end
