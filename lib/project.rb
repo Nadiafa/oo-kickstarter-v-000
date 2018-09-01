@@ -6,9 +6,7 @@ class Project
   end  
   
   
-  # def ::new
-  # takes a title on initialization
-  # end
+
   
   # def add_backer
   # # accepts a Backer as an argument and stores it in a backers array
