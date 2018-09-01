@@ -1,10 +1,6 @@
 class Project
   attr_accessor :title, :backers
-  
 
-  
-  # ::new
-  # takes a name on initialization
   def initialize(title)
     @title = title
     @backers = []
