@@ -13,7 +13,7 @@ class Project
   # #add_backer
   # accepts a Backer as an argument and stores it in a backers array
     def add_backer(backer)
-      # backer.backed_projects == self
+      backer.backed_projects == self
       @backers << backer
   # # accepts a Backer as an argument and stores it in a backers array
   # # also adds the project to the backer's backed_projects array
