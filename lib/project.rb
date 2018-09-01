@@ -1,8 +1,9 @@
 class Project
-  attr_accessor :title, :baker
+  attr_accessor :title, :backed_projects, :baker
   
   def title(title)
     @title = title 
+    @backed_projects = []
   end 
   
   
